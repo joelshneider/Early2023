@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prolog</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css file link --> 
+    <link rel="stylesheet" href="styles.css">
+      <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="navbar2">
+            <a href="#s-primario">Sintomas Primario</a>
+            <a href="#s-secundario">Sintomas Secundarios</a>
+            <a href="#antedecentes">Antecedentes</a>
+        </nav>
+    </header>
+        <!-- header section ends -->
+
+        <!-- barra progreso section starts -->
+    <div class="progress-bar-container">
+      <div id="progress-bar"></div>
+    </div>
+     <!-- barra progreso section ends -->
+
+      <!-- s-primerio section starts -->
+    <section class="s-primario" id="s-primario">
+      <div class="content">
+      <h1 class="heading"><strong><span>SINTOMAS</span> PRIMARIO</h1><br></strong>
+      <h2><strong>Marque los siguientes sintomas que presenté</strong></h2>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+          <h4>Anemia</h4> 
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Anemia Ferropénica</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Boca muy Seca</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Cambios de la Mestruación</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Descarga Vaginal acuosa y dolor pélvico por más de 15 días</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Sangrado Vaginal Profuso</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Sangrado Vaginal, secreación inusual</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Secreción vaginal continua que puede ser pálida, acuosa olor fetido</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Sintoma de obstrucción urinaria</h4>
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+          <label class="form-check-label" for="flexCheckDefault">
+            <h4>Sudores Frios</h4>
+          </label>
+        </div>
+      </div>
+    </section>
+    <!-- s-secundario sectiion starts -->
+    <section class="s-secundario" id="s-secundario">
+      <div class="content">
+      <h1 class="heading"><strong><span>SINTOMAS</span> SECUNDARIO</h1><br></strong>
+        <h2><strong>Marque las opciones que correspondan en su vida sexual</strong></h2>
+          <div class="form-check">  
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Uso de Píldoras Anticoceptivas mayor a 5 años</h4>
+          </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Múltiples Compañeros Sexuales</h4>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Edad temprana en la primera relación sexual</h4>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Haber padecido enfermedades venéras</h4>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Multiparidad o primoparición de los 30 años</h4>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Elevado número de hijos</h4>
+            </label>
+          </div>
+      </div>
+    </section>
+<!-- s-secundario sectiion ends -->
+
+<!-- antecedentes sectiion starts -->
+    <section class="antedecentes" id="antedecentes">
+      <div class="content">
+      <h1 class="heading"><strong><span>ANTECEDENTES</span></h1><br></strong>
+      <h2><strong>¿En su Antecedente personal?</strong></h2>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              <h4>Herpes</h4>
+            </label>
+          </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+            <label class="form-check-label" for="flexCheckChecked">
+              <h4>Tabaquismo</h4>
+            </label>
+        </div><br>
+      <h2><strong>¿En su Historial Familiar algún familiar tuvo o tiene Cáncer Vaginal?</strong></h2>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              <h4>Abuela</h4>
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+            <label class="form-check-label" for="flexCheckChecked">
+              <h4>Madre</h4>
+            </label>
+          </div>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" >
+            <label class="form-check-label" for="flexCheckChecked">
+              <h4>Hermana</h4>
+            </label>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="d-grid gap-3 d-md-flex justify-content-md-end">
+          <a type="button" class="btn btn-secondary" href="index.html">Regresar</a>
+          <a type="button" class="btn btn-outline-secondary" href="resultado.html">Enviar</a>
+        </div>
+        <br>
+    </section>
+    <!-- custom js file link -->
+    <script src="assets/js/progress.js"></script>
+</body>
+</html>

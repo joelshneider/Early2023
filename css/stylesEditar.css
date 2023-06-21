@@ -1,0 +1,70 @@
+body {
+  background-image: url("../assets/images/fondoAzul.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat;
+  font-family: Arial, sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #f6f6f6;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+select {
+  height: 38px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #256cd5;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #015be294;
+}
+
+.checkbox-group {
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.checkbox-group label {
+  display: block;
+}
+
+.checkbox-group input[type="checkbox"] {
+  vertical-align: middle;
+}
